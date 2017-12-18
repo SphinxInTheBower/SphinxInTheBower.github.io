@@ -1,0 +1,126 @@
+
+/* Main page layout. */
+
+body {
+    background-color: #F4ECD8;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+}
+
+.content {
+    margin: 2em auto;
+    max-width: 500px;
+}
+
+/* Menu bar. */
+
+.menubar {
+    margin: 0 auto;
+    max-width: 540px;
+    background-color: black;
+    text-align: center;
+}
+
+.menubar ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.menubar li {
+    display: inline;
+}
+
+.menubar a {
+    display: inline-block;
+    padding: 1em 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.menubar #inactive {
+    color: grey;
+}
+
+/* Front matter. */
+
+.cover {
+    text-align: center;
+}
+
+.toc a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+.toc p.indent {
+    margin-left: 1.4em;
+}
+
+/* Signatures. */
+
+.sign {
+    margin: 2em 0 2em 3em;
+}
+
+.sign p {
+    margin: 0;
+}
+
+/* Line spacing and endnotes. */
+
+.content li {
+    padding-bottom: .5em;
+}
+
+p {
+    line-height: 1.2;
+}
+
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -.4em;
+}
+
+/* Figures. */
+
+img {
+    max-width: 100%;
+}
+
+.figure {
+    margin: 1.4em 0;
+}
+
+.figure p {
+    font-size: 90%;
+    margin: .4em 0;
+}
+
+p.source {
+    font-size: 80%;
+    margin: .4em 0;
+}
+
+.perc50 {
+    max-width: 50%;
+}
+
+.perc60 {
+    max-width: 60%;
+}
+
+.perc70 {
+    max-width: 70%;
+}
+
+.perc80 {
+    max-width: 80%;
+}
+
+.perc90 {
+    max-width: 90%;
+}
